@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 @Stateless
 public class DriverDao extends Dao<Driver> {
 
-    @PersistenceContext(name = "primaryPU")
+    @PersistenceContext
     EntityManager em;
 
     @Override

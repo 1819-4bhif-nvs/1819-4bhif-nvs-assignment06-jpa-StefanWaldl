@@ -18,7 +18,7 @@ public abstract class Dao<TEntity> {
                 .createNamedQuery(getEntityClass().getSimpleName() + ".getAll", getEntityClass())
                 .getResultList();
     }
-    public TEntity getById(Integer id){
+    public TEntity getById(Long id){
         try {
             return getEntityManager()
                     .createNamedQuery(getEntityClass().getSimpleName() + ".getById", getEntityClass())
@@ -39,7 +39,7 @@ public abstract class Dao<TEntity> {
         return true;
     }
 
-    public boolean delete(Integer id) {
+    public boolean delete(Long id) {
         try{
             getEntityManager().remove(getById(id));
             getEntityManager().flush();
