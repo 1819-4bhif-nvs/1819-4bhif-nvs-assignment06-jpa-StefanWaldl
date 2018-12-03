@@ -27,7 +27,7 @@ public abstract class EntityEndpoint<TEntity, TEntityDto> {
 
     @GET
     @Path("/{id}")
-    public Response getLessonById(@PathParam("id") Integer id){
+    public Response getLessonById(@PathParam("id") Long id){
         TEntity entity = getEntityDao().getById(id);
         if(entity == null)
             return Response
@@ -69,7 +69,7 @@ public abstract class EntityEndpoint<TEntity, TEntityDto> {
     @PUT
     @Path("/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response updateLesson(TEntityDto dto, @PathParam("id") Integer id){
+    public Response updateLesson(TEntityDto dto, @PathParam("id") Long id){
         TEntity entity = getEntityDao().getById(id);
         if(entity == null){
             return Response
@@ -89,7 +89,7 @@ public abstract class EntityEndpoint<TEntity, TEntityDto> {
 
     @DELETE
     @Path("/{id}")
-    public Response deleteLesson(@PathParam("id") Integer id){
+    public Response deleteLesson(@PathParam("id") Long id){
         if(!getEntityDao().delete(id)){
             return Response
                     .status(Response.Status.NOT_FOUND)
