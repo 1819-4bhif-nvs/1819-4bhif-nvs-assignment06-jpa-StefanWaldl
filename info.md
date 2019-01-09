@@ -3,10 +3,10 @@
 
 -ERD
 
-<img src="documents/ERD.PNG" width="50%">
+![x](./documents/ERD.png "ERD")
 
 -CLD
 
-<img src="documents/CLD.PNG" width="50%">
+![x](./documents/cld.png "CLD")
 
 In meinem Programm ist es möglich über REST alle CRUD funktionen der entities aufzurufen.
