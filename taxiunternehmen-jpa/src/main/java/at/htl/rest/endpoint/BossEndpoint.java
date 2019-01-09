@@ -29,6 +29,7 @@ public class BossEndpoint extends EntityEndpoint<Boss, BossDto> {
         return boss.toDto();
     }
 
+
     @Override
     protected Boss updateEntityWithDto(Boss boss, BossDto bossDto) {
         boss.update(bossDto);

@@ -10,3 +10,11 @@
 - Ein Datum muss in Ihrem REST-Endpoint
 - Verwenden Sie eine DerbyDb sowie eine H2
 - Erstellen Systemtests auf Basis JavaSE.
+
+#Taxiunternehmen
+ERD
+<img src="documents/ERD.PNG">
+CLD
+<img src="documents/CLD.PNG">
+
+In meinem Programm ist es möglich über REST alle CRUD funktionen der entities aufzurufen.
