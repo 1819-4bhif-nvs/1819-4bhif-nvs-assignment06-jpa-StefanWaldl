@@ -9,4 +9,4 @@
 
 ![x](./documents/cld.png "CLD")
 
-In meinem Programm ist es möglich über REST alle CRUD funktionen der entities aufzurufen.
+In meinem Programm wird man die Abläufe eines Taxiunternehmens festhalten können

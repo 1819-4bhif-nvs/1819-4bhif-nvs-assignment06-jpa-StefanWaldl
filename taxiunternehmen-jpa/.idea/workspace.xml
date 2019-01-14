@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="845e4607-98e9-4ae4-8455-0a075cd45f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../info.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../info.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/taxiunternehmen-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/taxiunternehmen-jpa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="845e4607-98e9-4ae4-8455-0a075cd45f43" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,48 +41,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://Persistence/JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Persistence</ID>
+              <OriginalElement>JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel</OriginalElement>
+              <nodes>
+                <node x="184.24999999999997" y="226.0">Car#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Car.java</node>
+                <node x="142.66666666666666" y="372.0">Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java</node>
+                <node x="0.0" y="0.0">Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java</node>
+                <node x="33.24999999999997" y="226.0">Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java</node>
+                <node x="12.25" y="102.0">Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java" target="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java">
+                  <point x="-43.66666666666666" y="-48.0" />
+                  <point x="55.083333333333314" y="201.0" />
+                  <point x="42.75" y="201.0" />
+                  <point x="-30.5" y="37.0" />
+                </edge>
+                <edge source="Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java" target="Car#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Car.java">
+                  <point x="15.75" y="-15.0" />
+                  <point x="189.91666666666666" y="347.0" />
+                  <point x="242.24999999999997" y="347.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+                <edge source="Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+                  <point x="54.5" y="26.0" />
+                  <point x="163.5" y="77.0" />
+                  <point x="144.75" y="77.0" />
+                  <point x="144.75" y="201.0" />
+                  <point x="142.41666666666663" y="201.0" />
+                  <point x="43.66666666666666" y="-48.0" />
+                </edge>
+                <edge source="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+                  <point x="30.5" y="37.0" />
+                  <point x="103.75" y="201.0" />
+                  <point x="98.74999999999997" y="201.0" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java" target="Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java">
+                  <point x="0.0" y="-37.0" />
+                  <point x="73.25" y="77.0" />
+                  <point x="54.5" y="77.0" />
+                  <point x="-54.5" y="26.0" />
+                </edge>
+                <edge source="Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+                  <point x="-15.75" y="-15.0" />
+                  <point x="158.41666666666666" y="347.0" />
+                  <point x="98.74999999999997" y="347.0" />
+                  <point x="0.0" y="48.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-201.5" y="78.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Embeddables</Category>
+                <Category>Superclasses</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Boss.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="n#!!doc;n#Boss#0;n#Boss#0" />
-                <element signature="n#!!doc;n#getPromotionToBoss#0;n#Boss#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/at.htl.persistence.entity">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
               <OriginalElement>at.htl.persistence.entity</OriginalElement>
               <nodes>
-                <node x="0.0" y="134.05574645230524">at.htl.persistence.entity.Company</node>
-                <node x="149.71440873724998" y="191.92734941021226">at.htl.persistence.entity.Driver</node>
-                <node x="199.5960749579993" y="57.3530145191249">at.htl.persistence.entity.Person</node>
-                <node x="76.57904783424308" y="0.0">at.htl.persistence.entity.Boss</node>
-                <node x="212.10600496341561" y="313.6671481770004">at.htl.persistence.entity.Car</node>
+                <node x="-255.0" y="-54.453859129723355">at.htl.persistence.entity.Company</node>
+                <node x="-80.35268794191069" y="220.91662769238258">at.htl.persistence.entity.Driver</node>
+                <node x="-243.88617698054063" y="97.61518531954226">at.htl.persistence.entity.Person</node>
+                <node x="-412.8601879899687" y="235.35951372677823">at.htl.persistence.entity.Boss</node>
+                <node x="-70.26738083530756" y="313.0">at.htl.persistence.entity.Car</node>
               </nodes>
               <notes />
               <edges>
@@ -98,86 +126,39 @@
                   <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Company">
-                  <point x="11.051746916524703" y="0.0" />
-                  <point x="11.051746916524678" y="0.0" />
+                  <point x="-11.239756258339341" y="0.0" />
+                  <point x="-11.239756258339341" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Person">
-                  <point x="5.36541587520248" y="0.0" />
-                  <point x="5.365415875202487" y="0.0" />
+                  <point x="-5.441259390687385" y="0.0" />
+                  <point x="-5.4412593906874065" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Person">
-                  <point x="-24.270204801459442" y="0.0" />
-                  <point x="-24.2702048014595" y="0.0" />
+                  <point x="22.139960038483196" y="0.0" />
+                  <point x="22.139960038483196" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Company">
                   <point x="0.0" y="0.0" />
                   <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Car">
-                  <point x="4.551052946687143" y="-2.0707286341890097" />
-                  <point x="4.55105294668715" y="-2.0707286341890097" />
+                  <point x="-4.61939766255643" y="-1.9134171618254499" />
+                  <point x="-4.6193976625564375" y="-1.913417161825464" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Person" target="at.htl.persistence.entity.Company">
-                  <point x="24.27020480145947" y="0.0" />
-                  <point x="24.270204801459457" y="0.0" />
+                  <point x="-22.139960038483196" y="0.0" />
+                  <point x="-22.13996003848321" y="0.0" />
                 </edge>
                 <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Person">
-                  <point x="1.8279454898295775" y="-4.11200866806135" />
-                  <point x="1.827945489829574" y="-4.112008668061357" />
+                  <point x="-2.1865607739653115" y="-4.496548896849248" />
+                  <point x="-2.1865607739653115" y="-4.496548896849255" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-247.5" y="-30.5" />
-              <SelectedNodes>
-                <node>at.htl.persistence.entity.Company</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="1.0" x="104.5" y="92.5" />
+              <SelectedNodes />
               <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-                <element signature="e#1841#1842#0" expanded="true" />
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1915#1916#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
-                <element signature="e#2013#2014#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="n#!!doc;n#Car#0;n#Car#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -358,8 +339,8 @@
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547452143473" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547452166996" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -480,16 +461,15 @@
       <workItem from="1544512571620" duration="2077000" />
       <workItem from="1544692177401" duration="280000" />
       <workItem from="1547064977976" duration="2125000" />
-      <workItem from="1547450556675" duration="1370000" />
+      <workItem from="1547450556675" duration="1721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19987000" />
+    <option name="totallyTimeSpent" value="20338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.2871764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -705,37 +685,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://Persistence/JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="" y="">Car#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Car.java</node>
-            <node x="" y="">Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java</node>
-            <node x="" y="">Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java</node>
-            <node x="" y="">Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java</node>
-            <node x="" y="">Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="150.5" y="201.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Embeddables</Category>
-            <Category>Superclasses</Category>
-          </Categories>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="242">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#Car#0;n#Car#0" />
+            <element signature="n#!!doc;n#Boss#0;n#Boss#0" />
+            <element signature="n#!!doc;n#getPromotionToBoss#0;n#Boss#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,15 +739,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Boss.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="340">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#Boss#0;n#Boss#0" />
-            <element signature="n#!!doc;n#getPromotionToBoss#0;n#Boss#0" />
+            <element signature="n#!!doc;n#Car#0;n#Car#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Persistence/JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/76351a3f/dbPU/taxiunternehmen-jpa/jpa/JPA/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="184.24999999999997" y="226.0">Car#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Car.java</node>
+            <node x="142.66666666666666" y="372.0">Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java</node>
+            <node x="0.0" y="0.0">Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java</node>
+            <node x="33.24999999999997" y="226.0">Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java</node>
+            <node x="12.25" y="102.0">Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java" target="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java">
+              <point x="-43.66666666666666" y="-48.0" />
+              <point x="55.083333333333314" y="201.0" />
+              <point x="42.75" y="201.0" />
+              <point x="-30.5" y="37.0" />
+            </edge>
+            <edge source="Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java" target="Car#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Car.java">
+              <point x="15.75" y="-15.0" />
+              <point x="189.91666666666666" y="347.0" />
+              <point x="242.24999999999997" y="347.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+              <point x="54.5" y="26.0" />
+              <point x="163.5" y="77.0" />
+              <point x="144.75" y="77.0" />
+              <point x="144.75" y="201.0" />
+              <point x="142.41666666666663" y="201.0" />
+              <point x="43.66666666666666" y="-48.0" />
+            </edge>
+            <edge source="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+              <point x="30.5" y="37.0" />
+              <point x="103.75" y="201.0" />
+              <point x="98.74999999999997" y="201.0" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="Company#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Company.java" target="Boss#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Boss.java">
+              <point x="0.0" y="-37.0" />
+              <point x="73.25" y="77.0" />
+              <point x="54.5" y="77.0" />
+              <point x="-54.5" y="26.0" />
+            </edge>
+            <edge source="Driver#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Driver.java" target="Person#file://C:/school/4BHIF/Stuetz/java/git/1819-4bhif-nvs-assignment06-jpa-StefanWaldl/taxiunternehmen-jpa/src/main/java/at/htl/persistence/entity/Person.java">
+              <point x="-15.75" y="-15.0" />
+              <point x="158.41666666666666" y="347.0" />
+              <point x="98.74999999999997" y="347.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-201.5" y="78.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
@@ -776,11 +819,11 @@
           <ID>JAVA</ID>
           <OriginalElement>at.htl.persistence.entity</OriginalElement>
           <nodes>
-            <node x="0.0" y="134.05574645230524">at.htl.persistence.entity.Company</node>
-            <node x="149.71440873724998" y="191.92734941021226">at.htl.persistence.entity.Driver</node>
-            <node x="199.5960749579993" y="57.3530145191249">at.htl.persistence.entity.Person</node>
-            <node x="76.57904783424308" y="0.0">at.htl.persistence.entity.Boss</node>
-            <node x="212.10600496341561" y="313.6671481770004">at.htl.persistence.entity.Car</node>
+            <node x="-255.0" y="-54.453859129723355">at.htl.persistence.entity.Company</node>
+            <node x="-80.35268794191069" y="220.91662769238258">at.htl.persistence.entity.Driver</node>
+            <node x="-243.88617698054063" y="97.61518531954226">at.htl.persistence.entity.Person</node>
+            <node x="-412.8601879899687" y="235.35951372677823">at.htl.persistence.entity.Boss</node>
+            <node x="-70.26738083530756" y="313.0">at.htl.persistence.entity.Car</node>
           </nodes>
           <notes />
           <edges>
@@ -789,65 +832,39 @@
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Company">
-              <point x="11.051746916524703" y="0.0" />
-              <point x="11.051746916524678" y="0.0" />
+              <point x="-11.239756258339341" y="0.0" />
+              <point x="-11.239756258339341" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Person">
-              <point x="5.36541587520248" y="0.0" />
-              <point x="5.365415875202487" y="0.0" />
+              <point x="-5.441259390687385" y="0.0" />
+              <point x="-5.4412593906874065" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Person">
-              <point x="-24.270204801459442" y="0.0" />
-              <point x="-24.2702048014595" y="0.0" />
+              <point x="22.139960038483196" y="0.0" />
+              <point x="22.139960038483196" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Company">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Car">
-              <point x="4.551052946687143" y="-2.0707286341890097" />
-              <point x="4.55105294668715" y="-2.0707286341890097" />
+              <point x="-4.61939766255643" y="-1.9134171618254499" />
+              <point x="-4.6193976625564375" y="-1.913417161825464" />
             </edge>
             <edge source="at.htl.persistence.entity.Person" target="at.htl.persistence.entity.Company">
-              <point x="24.27020480145947" y="0.0" />
-              <point x="24.270204801459457" y="0.0" />
+              <point x="-22.139960038483196" y="0.0" />
+              <point x="-22.13996003848321" y="0.0" />
             </edge>
             <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Person">
-              <point x="1.8279454898295775" y="-4.11200866806135" />
-              <point x="1.827945489829574" y="-4.112008668061357" />
+              <point x="-2.1865607739653115" y="-4.496548896849248" />
+              <point x="-2.1865607739653115" y="-4.496548896849255" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-247.5" y="-30.5" />
-          <SelectedNodes>
-            <node>at.htl.persistence.entity.Company</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.0" x="104.5" y="92.5" />
+          <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/persistence/entity/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
