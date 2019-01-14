@@ -6,6 +6,7 @@ import at.htl.rest.dto.BossDto;
 import at.htl.rest.dto.CarDto;
 import at.htl.rest.dto.DriverDto;
 
+import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
@@ -17,12 +18,16 @@ import java.util.List;
         @NamedQuery(name="Driver.getById", query = "select driver from Driver driver where driver.id = :id")
 })
 public class Driver extends Person {
-    private Car car;
+    @ManyToMany(fetch = FetchType.LAZY)
+    private List<Car> cars;
 
     //region Constructor
-    public Driver(String name, Double salary, Car car, List<Company> companies) {
+    public Driver(String name, Double salary, List<Car> cars, List<Company> companies) {
         super(name, salary, companies);
-        this.car = car;
+        this.cars = cars;
+    }
+
+    public Driver() {
     }
     //endregion
 
@@ -33,8 +38,6 @@ public class Driver extends Person {
             dto.setName(this.getName());
         if(this.getSalary() != null)
             dto.setSalary(this.getSalary());
-        if(this.getCar() != null)
-            dto.setCarId(this.car.getId());
         return dto;
     }
 
@@ -44,12 +47,14 @@ public class Driver extends Person {
     }
 
     //region Getter and Setter
-    public Car getCar() {
-        return car;
+
+    public List<Car> getCars() {
+        return cars;
     }
 
-    public void setCar(Car car) {
-        this.car = car;
+    public void setCars(List<Car> cars) {
+        this.cars = cars;
     }
+
     //endregion
 }
