@@ -3,10 +3,10 @@
 
 -ERD
 
-![x](./documents/ERD.png "ERD")
+![x](./documents/ERD.PNG "ERD")
 
 -CLD
 
-![x](./documents/cld.png "CLD")
+![x](./documents/CLD.PNG "CLD")
 
 In meinem Programm wird man die Abläufe eines Taxiunternehmens festhalten können
