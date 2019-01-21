@@ -1,7 +1,5 @@
 package at.htl.rest.dto;
 
-import jdk.jfr.Timespan;
-
 import javax.xml.bind.annotation.XmlRootElement;
 import java.sql.Timestamp;
 

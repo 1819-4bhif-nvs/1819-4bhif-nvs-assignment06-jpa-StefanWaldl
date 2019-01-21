@@ -35,7 +35,7 @@ public class CompanyEndpoint extends EntityEndpoint<Company, CompanyDto>{
 
     @Override
     protected Company updateEntityWithDto(Company company, CompanyDto companyDto) {
-        company.update(companyDto, bossDao);
+        company.update(companyDto);
         return company;
     }
 }
