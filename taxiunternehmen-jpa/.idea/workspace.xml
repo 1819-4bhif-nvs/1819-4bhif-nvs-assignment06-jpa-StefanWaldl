@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="845e4607-98e9-4ae4-8455-0a075cd45f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/72bf2a2a-4bf7-45cb-8093-8bebc549c22b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/72bf2a2a-4bf7-45cb-8093-8bebc549c22b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/rest/dto/BossDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/rest/dto/BossDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/rest/endpoint/CompanyEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/rest/endpoint/CompanyEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxiunternehmen-jpa.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +56,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="232">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/at.htl.persistence.entity">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>at.htl.persistence.entity</OriginalElement>
+              <nodes>
+                <node x="-84.0" y="-50.0">at.htl.persistence.entity.Company</node>
+                <node x="146.0" y="304.0">at.htl.persistence.entity.Driver</node>
+                <node x="9.0" y="114.0">at.htl.persistence.entity.Person</node>
+                <node x="-216.0" y="271.0">at.htl.persistence.entity.Boss</node>
+                <node x="166.0" y="448.0">at.htl.persistence.entity.Car</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Boss">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Person">
+                  <point x="4.520651761729397" y="-2.1362836069147875" />
+                  <point x="4.520651761729397" y="-2.136283606914816" />
+                </edge>
+                <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Person">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="at.htl.persistence.entity.Person" target="at.htl.persistence.entity.Company">
+                  <point x="-5.530176027192169" y="0.0" />
+                  <point x="-5.530176027192169" y="0.0" />
+                </edge>
+                <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Person">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Car">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="177.5" y="292.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -73,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/rest/dto/CompanyDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
-              <caret line="16" column="21" lean-forward="true" selection-end-line="48" />
+              <caret line="16" column="21" selection-end-line="48" />
               <folding>
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#490#491#0" expanded="true" />
@@ -311,14 +356,14 @@
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547452166996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548065474746" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -433,12 +478,12 @@
       <workItem from="1544692177401" duration="280000" />
       <workItem from="1547064977976" duration="2125000" />
       <workItem from="1547450556675" duration="1721000" />
-      <workItem from="1548057730857" duration="2880000" />
+      <workItem from="1548057730857" duration="5025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23218000" />
+    <option name="totallyTimeSpent" value="25363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="2426" height="1405" extended-state="6" />
@@ -455,7 +500,7 @@
       <window_info id="Persistence" order="8" sideWeight="0.50256413" side_tool="true" visible="true" weight="0.2871764" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41088673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22563653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39947322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,7 +520,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="JSF" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32992172" />
-      <window_info anchor="right" id="Database" order="7" weight="0.17098133" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.17065868" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="CDI" order="10" weight="0.32992172" />
@@ -683,61 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/at.htl.persistence.entity">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>at.htl.persistence.entity</OriginalElement>
-          <nodes>
-            <node x="-255.0" y="-54.453859129723355">at.htl.persistence.entity.Company</node>
-            <node x="-80.35268794191069" y="220.91662769238258">at.htl.persistence.entity.Driver</node>
-            <node x="-243.88617698054063" y="97.61518531954226">at.htl.persistence.entity.Person</node>
-            <node x="-412.8601879899687" y="235.35951372677823">at.htl.persistence.entity.Boss</node>
-            <node x="-70.26738083530756" y="313.0">at.htl.persistence.entity.Car</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Boss">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Company">
-              <point x="-11.239756258339341" y="0.0" />
-              <point x="-11.239756258339341" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Person">
-              <point x="-5.441259390687385" y="0.0" />
-              <point x="-5.4412593906874065" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Person">
-              <point x="22.139960038483196" y="0.0" />
-              <point x="22.139960038483196" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Company">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Car">
-              <point x="-4.61939766255643" y="-1.9134171618254499" />
-              <point x="-4.6193976625564375" y="-1.913417161825464" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Person" target="at.htl.persistence.entity.Company">
-              <point x="-22.139960038483196" y="0.0" />
-              <point x="-22.13996003848321" y="0.0" />
-            </edge>
-            <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Person">
-              <point x="-2.1865607739653115" y="-4.496548896849248" />
-              <point x="-2.1865607739653115" y="-4.496548896849255" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="93.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/rest/endpoint/BossEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -790,7 +780,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/at/htl/rest/dto/CompanyDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
-          <caret line="16" column="21" lean-forward="true" selection-end-line="48" />
+          <caret line="16" column="21" selection-end-line="48" />
           <folding>
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
@@ -840,8 +830,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="232">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.htl.persistence.entity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.htl.persistence.entity</OriginalElement>
+          <nodes>
+            <node x="-84.0" y="-50.0">at.htl.persistence.entity.Company</node>
+            <node x="146.0" y="304.0">at.htl.persistence.entity.Driver</node>
+            <node x="9.0" y="114.0">at.htl.persistence.entity.Person</node>
+            <node x="-216.0" y="271.0">at.htl.persistence.entity.Boss</node>
+            <node x="166.0" y="448.0">at.htl.persistence.entity.Car</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Boss">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="at.htl.persistence.entity.Company" target="at.htl.persistence.entity.Person">
+              <point x="4.520651761729397" y="-2.1362836069147875" />
+              <point x="4.520651761729397" y="-2.136283606914816" />
+            </edge>
+            <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Person">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="at.htl.persistence.entity.Person" target="at.htl.persistence.entity.Company">
+              <point x="-5.530176027192169" y="0.0" />
+              <point x="-5.530176027192169" y="0.0" />
+            </edge>
+            <edge source="at.htl.persistence.entity.Boss" target="at.htl.persistence.entity.Person">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="at.htl.persistence.entity.Driver" target="at.htl.persistence.entity.Car">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="177.5" y="292.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
