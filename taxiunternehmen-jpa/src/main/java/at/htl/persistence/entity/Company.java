@@ -1,8 +1,5 @@
 package at.htl.persistence.entity;
 
-import at.htl.persistence.dao.BossDao;
-import at.htl.rest.dto.CompanyDto;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -17,35 +14,25 @@ public class Company {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @ManyToMany(fetch = FetchType.LAZY)
-    private List<Boss> bosses;
-    @ManyToMany(fetch = FetchType.LAZY)
-    private List<Person> employees;
+    @OneToOne
+    private Boss boss;
+    @OneToMany(fetch = FetchType.LAZY)
+    private List<Employee> employees;
+    @OneToMany(fetch = FetchType.LAZY)
+    private List<Customer> customers;
+
 
     //region Constructors
     public Company() {
     }
 
-    public Company(String name, List<Boss> bosses, List<Person> employees) {
+    public Company(String name, Boss boss, List<Employee> employees) {
         this.name = name;
-        this.bosses = bosses;
+        this.boss = boss;
         this.employees = employees;
     }
 
     //endregion
-
-    public CompanyDto toDto(){
-        CompanyDto dto = new CompanyDto();
-        dto.setId(this.getId());
-        if(this.getName() != null)
-            dto.setName(this.getName());
-        return dto;
-    }
-
-    public void update(CompanyDto companyDto) {
-        if(companyDto.getName() != null)
-            this.name = companyDto.getName();
-    }
 
     //region Getter and Setter
     public Long getId() {
@@ -60,21 +47,28 @@ public class Company {
         this.name = name;
     }
 
-    public List<Boss> getBosses() {
-        return bosses;
+    public Boss getBoss() {
+        return boss;
     }
 
-    public void setBosses(List<Boss> bosses) {
-        this.bosses = bosses;
+    public void setBoss(Boss boss) {
+        this.boss = boss;
     }
 
-    public List<Person> getEmployees() {
+    public List<Employee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<Person> employees) {
+    public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
 
+    public List<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(List<Customer> customers) {
+        this.customers = customers;
+    }
     //endregion
 }

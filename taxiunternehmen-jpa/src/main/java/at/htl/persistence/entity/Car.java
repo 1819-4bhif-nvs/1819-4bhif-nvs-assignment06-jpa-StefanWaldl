@@ -1,8 +1,5 @@
 package at.htl.persistence.entity;
 
-import at.htl.rest.dto.BossDto;
-import at.htl.rest.dto.CarDto;
-
 import javax.persistence.*;
 import java.sql.Timestamp;
 
@@ -27,23 +24,6 @@ public class Car {
         this.seats = seats;
     }
     //endregion
-
-    public CarDto toDto(){
-        CarDto dto = new CarDto();
-        dto.setId(this.getId());
-        if(this.getType() != null)
-            dto.setType(this.getType());
-        if(this.getSeats() != null)
-            dto.setSeats(this.getSeats());
-        return dto;
-    }
-
-    public void update(CarDto carDto) {
-        if(carDto.getType() != null)
-            this.type = carDto.getType();
-        if(carDto.getSeats() != null)
-            this.seats = carDto.getSeats();
-    }
 
     //region Getter and Setter
     public Long getId() {

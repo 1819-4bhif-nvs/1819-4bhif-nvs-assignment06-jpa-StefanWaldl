@@ -1,12 +1,13 @@
 package at.htl.persistence.entity;
 
 import at.htl.persistence.dao.BossDao;
-import at.htl.rest.dto.BossDto;
 
 import javax.persistence.Entity;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToOne;
 import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
@@ -16,42 +17,27 @@ import java.util.List;
 })
 public class Boss extends Person{
 
-    private Timestamp promotionToBoss;
+    private Double salary;
 
     //region Constructors
     public Boss() {
     }
 
-    public Boss(String name, Double salary, List<Company> companies, Timestamp promotionToBoss) {
-        super(name, salary, companies);
-        this.promotionToBoss = promotionToBoss;
+    public Boss(String name, String street, LocalDate birthday, Double salary) {
+        super(name, street, birthday);
+        this.salary = salary;
     }
     //endregion
 
-    public BossDto toDto(){
-        BossDto dto = new BossDto();
-        dto.setId(this.getId());
-        if(this.getName() != null)
-            dto.setName(this.getName());
-        if(this.getSalary() != null)
-            dto.setSalary(this.getSalary());
-        if(this.getPromotionToBoss() != null)
-            dto.setPromotionToBoss(this.getPromotionToBoss());
-        return dto;
-    }
-
-    public void update(BossDto bossDto) {
-        if(bossDto.getPromotionToBoss() != null)
-            this.promotionToBoss = bossDto.getPromotionToBoss();
-    }
-
     //region Getter and Settter
-    public Timestamp getPromotionToBoss() {
-        return promotionToBoss;
+
+    public Double getSalary() {
+        return salary;
     }
 
-    public void setPromotionToBoss(Timestamp promotionToBoss) {
-        this.promotionToBoss = promotionToBoss;
+    public void setSalary(Double salary) {
+        this.salary = salary;
     }
+
     //endregion
 }

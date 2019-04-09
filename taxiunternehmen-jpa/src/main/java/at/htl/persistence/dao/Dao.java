@@ -13,12 +13,12 @@ public abstract class Dao<TEntity> {
         getEntityManager().flush();
     }
 
-    public List<TEntity> getAll(){
+    public List<TEntity> findAll(){
         return getEntityManager()
                 .createNamedQuery(getEntityClass().getSimpleName() + ".getAll", getEntityClass())
                 .getResultList();
     }
-    public TEntity getById(Long id){
+    public TEntity findById(Long id){
         try {
             return getEntityManager()
                     .createNamedQuery(getEntityClass().getSimpleName() + ".getById", getEntityClass())
@@ -41,7 +41,7 @@ public abstract class Dao<TEntity> {
 
     public boolean delete(Long id) {
         try{
-            getEntityManager().remove(getById(id));
+            getEntityManager().remove(findById(id));
             getEntityManager().flush();
         } catch(IllegalArgumentException ex){
             return false;

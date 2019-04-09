@@ -1,31 +1,32 @@
 package at.htl.persistence.entity;
 
 import javax.persistence.*;
-import java.util.List;
+import java.time.LocalDate;
 
 @Entity
 @NamedQueries({
         @NamedQuery(name="Person.getAll", query = "select person from Person person"),
         @NamedQuery(name="Person.getById", query = "select person from Person person where person.id = :id")
 })
-abstract class Person {
+public abstract class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private Double salary;
-    @ManyToMany(fetch = FetchType.LAZY)
-    private List<Company> companies;
+    private String street;
+    private LocalDate birthday;
+
 
     //region Constructors
     public Person() {
     }
 
-    public Person(String name, Double salary, List<Company> companies) {
+    public Person(String name, String street, LocalDate birthday) {
         this.name = name;
-        this.salary = salary;
-        this.companies = companies;
+        this.street = street;
+        this.birthday = birthday;
     }
+
     //endregion
 
     //region Getter and Setter
@@ -41,20 +42,20 @@ abstract class Person {
         this.name = name;
     }
 
-    public Double getSalary() {
-        return salary;
+    public String getStreet() {
+        return street;
     }
 
-    public void setSalary(Double salary) {
-        this.salary = salary;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
-    public List<Company> getCompany() {
-        return companies;
+    public LocalDate getBirthday() {
+        return birthday;
     }
 
-    public void setCompany(List<Company> companies) {
-        this.companies = companies;
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
     }
     //endregion
 }
