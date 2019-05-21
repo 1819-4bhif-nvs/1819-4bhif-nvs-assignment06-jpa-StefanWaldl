@@ -4,21 +4,23 @@ import at.htl.persistence.entity.*;
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.Initialized;
+import javax.enterprise.event.Observes;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
-@Singleton
-@Startup
+@ApplicationScoped
 public class InitBean {
 
     @PersistenceContext
     EntityManager em;
 
-    @PostConstruct
-    public void init(){
+
+    public void init(@Observes @Initialized(ApplicationScoped.class) Object init){
         Boss b1 = new Boss("Christian", "Street 1", LocalDate.now().minusYears(2), 3000.0);
 
         Employee employee1 = new Employee("Lukas", "Street 2", LocalDate.now().minusYears(3), 3000.0);
